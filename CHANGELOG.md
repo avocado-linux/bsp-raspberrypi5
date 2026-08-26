@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   driver is not in rpi-6.12.y, so the common list failed to install on the
   6.12 kernel the 2026 feed boots by default.
 
+### Added
+- `wireless-regdb-static`, so cfg80211 has a regulatory database (the board
+  booted with `regulatory.db` missing and WiFi pinned to country 00).
+
 ## [0.1.0]
 
 ### Added
